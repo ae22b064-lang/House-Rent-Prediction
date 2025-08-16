@@ -1,41 +1,40 @@
-House Rent Prediction with Machine Learning
-This project demonstrates how to predict house rent prices using a machine learning model in Python. The prediction is based on a dataset containing various features such as BHK, size, city, and furnishing status.
+# House Rent Prediction with Machine Learning
 
-Project Overview
-The main objective is to build a machine learning model that can accurately predict the rent of a house based on its characteristics. The process involves data cleaning, exploratory data analysis (EDA), feature engineering (handling categorical variables), and training a regression model.
+This project demonstrates how to predict house rent prices using a **machine learning regression model** in Python.  
+The predictions are based on key features such as **BHK, size, city, and furnishing status**.
 
-Files in this Repository
-house_rent_prediction.py: The main Python script that contains all the code for data processing, model training, and prediction.
+---
 
-requirements.txt: A list of all the necessary Python libraries that must be installed to run the script.
+## Project Overview
+The goal of this project is to develop a machine learning model that can **accurately predict house rents** based on property characteristics.  
+The workflow includes:
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering (handling categorical variables)  
+- Model training and evaluation using regression techniques  
 
-README.md: This file, which provides an overview and instructions for the project.
+---
 
-How to Run the Project
-Clone the Repository:
+## Repository Structure
+- `house_rent_prediction.py` → Main Python script for data processing, model training, and prediction.  
+- `requirements.txt` → List of dependencies required to run the project.  
+- `README.md` → Documentation and instructions for usage.  
 
+---
+
+##  How to Run the Project
+
+### Clone the Repository
+```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
+```
 
-Install Required Libraries:
-
+### Install Required Libraries
+```
 pip install -r requirements.txt
-
-Run the Python Script:
-
+```
+### Run the Script
+```
 python house_rent_prediction.py
-
-Requirements
-The project requires the following Python libraries:
-
-pandas
-
-numpy
-
-scikit-learn
-
-matplotlib
-
-seaborn
-
-These are all listed in the requirements.txt file.
+```
